@@ -29,7 +29,6 @@ for country_id in range(2,267):
 
         all_trs = all_tabs[2].find_all("tr")
 
-
         table_data = [[cell.text for cell in row("td")] for row in all_trs]
 
         for row in table_data:
